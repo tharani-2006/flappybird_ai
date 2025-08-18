@@ -137,10 +137,8 @@ class FlappyBirdEnv:
 			if event.type == pygame.QUIT:
 				self.close()
 				return
-
 		# Draw background
 		self.screen.fill((135, 206, 235))  # sky blue
-
 		# Ground line (visual)
 		pygame.draw.rect(
 			self.screen,
