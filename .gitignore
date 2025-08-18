@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+.venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyTorch model checkpoints
+*.pt
+*.pth
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Build
+*.egg-info/
+dist/
+build/
+
+# Other
+*.swp
+*.bak
